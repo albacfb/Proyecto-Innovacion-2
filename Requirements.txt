@@ -1,0 +1,22 @@
+# --- Framework de la Aplicación ---
+# Puedes elegir Flask para un prototipo web o Kivy/BeeWare para app móvil
+Flask==3.0.0
+
+# --- Base de Datos ---
+# Para gestionar la evolución del dragón y el journal
+SQLAlchemy==2.0.23
+
+# --- Interfaz y Gamificación ---
+# Pygame es excelente para prototipar el mapa interactivo y animaciones
+pygame==2.5.2
+
+# --- Procesamiento de Lenguaje (Francés) ---
+# Para validar o analizar las frases que el alumno escribe en el journal
+spacy==3.7.2
+# Nota: Después de instalar spacy, se debe bajar el modelo francés:
+# python -m spacy download fr_core_news_sm
+
+# --- Utilidades ---
+# Para visualización de estadísticas de progreso (ODS 4)
+matplotlib==3.8.2
+pandas==2.1.3
